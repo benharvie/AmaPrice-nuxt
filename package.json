@@ -1,0 +1,26 @@
+{
+  "name": "AmaPrice",
+  "version": "1.0.0",
+  "description": "Global price comparison across Amazon",
+  "author": "Ben Harvie",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "watch": "watch 'npm run build;' ./pages"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.2.1",
+    "nuxt": "^2.0.0",
+    "postcss-import": "^13.0.0",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^3.3.4",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}
